@@ -9,7 +9,7 @@
   display: flex;
 }
 
-.heroes button {
+.heroes a {
   flex: 1;
   cursor: pointer;
   position: relative;
@@ -21,6 +21,10 @@
   display: flex;
   align-items: stretch;
   height: 1.8em;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
 }
 
 .heroes button:hover {
