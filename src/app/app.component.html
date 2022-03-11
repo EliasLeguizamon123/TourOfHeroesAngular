@@ -1,6 +1,7 @@
 <h1>{{title}}</h1>
-<nav class="dashB">
-  <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
-</nav>
+<div class="dashB">
+  <button mat-stroked-button color="warn" routerLink="/dashboard" routerLinkActive="active">Dashboard</button>
+  <button mat-button color="accent" routerLink="/heroes">Heroes</button>
+</div>
+
 <router-outlet></router-outlet>
